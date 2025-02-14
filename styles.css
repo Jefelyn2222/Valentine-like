@@ -1,0 +1,66 @@
+body {
+    background-color: #fce4ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+}
+
+.envelope {
+    width: 200px;
+    height: 120px;
+    background-color: #c97b7b;
+    position: relative;
+    cursor: pointer;
+}
+
+.flap {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 60px solid #d48a8a;
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: #c97b7b;
+}
+
+.letter {
+    display: none;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #a84e4e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.message {
+    padding-top: 50px; /* Menyesuaikan posisi teks agar lebih ke bawah */
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #c97b7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b36666;
+}
